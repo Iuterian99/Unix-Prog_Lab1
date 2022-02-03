@@ -10,9 +10,9 @@ int main(){
         }
     }
     if(counter == 2){
-        printf("Number is prime!\n");
+        printf("%d is prime!\n", num);
     }else{
-        printf("Number is not prime!\n");
+        printf("%d is not prime!\n", num);
     }
     return 0;
 }
